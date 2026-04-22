@@ -1,0 +1,19 @@
+{
+  "name": "navigateur",
+  "version": "1.0.0",
+  "description": "Navigateur web basé sur GTK4 et WebKit",
+  "author": "FHDE",
+  "type": "binary",
+  "language": "c",
+  "system_deps": ["gtk4", "webkit2gtk-6.0", "gcc", "pkg-config"],
+  "build": {
+    "command": "gcc -o navigateur src/main.c $(pkg-config --cflags --libs gtk4 webkit2gtk-6.0)",
+    "output": "navigateur"
+  },
+  "files": ["src/"],
+  "entry": "navigateur",
+  "update": {
+    "url": "https://github.com/FHDE-sudo/navigateur/releases/latest",
+    "check": "remote"
+  }
+}

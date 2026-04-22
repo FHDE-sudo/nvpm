@@ -1,8 +1,10 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "Un paquet exemple pour nvpm",
+  "description": "Un paquet exemple simple",
   "author": "FHDE",
+  "type": "script",
+  "language": "python",
   "dependencies": [],
   "files": ["main.py"],
   "entry": "main.py"

@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Un paquet exemple pour nvpm",
+  "author": "FHDE",
+  "dependencies": [],
+  "files": ["main.py"],
+  "entry": "main.py"
+}
